@@ -1,0 +1,31 @@
+.album-item {
+  height: 200px;
+  width: 200px;
+  background: url("./pic.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.album-item .overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.album-item .overlay img {
+  height: 60%;
+  transform: scale(0.7);
+  transition: all 0.3s;
+}
+
+.album-item:hover .overlay {
+  opacity: 1;
+}
+
+.album-item:hover .overlay img {
+  transform: scale(1);
+}

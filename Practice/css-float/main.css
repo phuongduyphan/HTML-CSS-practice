@@ -1,0 +1,26 @@
+header {
+  height: 120px;
+  background-color: #DDD;
+}
+
+nav {
+  height: 70px;
+  background-color: goldenrod;
+}
+
+aside {
+  float: left;
+  width: 20%;
+  background-color: blueviolet;
+}
+
+main {
+  margin-left: 22%;
+}
+
+footer {
+  clear: left;
+  height: 70px;
+  background-color: black;
+  color: #FFF;
+}

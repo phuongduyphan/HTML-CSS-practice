@@ -1,0 +1,7 @@
+- https://cssgradient.io/
+- css trick
+- https://tympanus.net/Tutorials/CaptionHoverEffects/index.html
+- https://easings.net/ 
+- (Easing functions specify the rate of change of a parameter over time: use in css-transition)
+- A Complete Guide to Grid (css tricks)
+- Browserstack

@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: #303030;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 15px 25px;
+  display: block;
+  color: #FFF;
+}
+
+.menu a:visited {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #5E5757;
+}
+
+.menu .has-submenu:hover .submenu {
+  display: block;
+}
+
+.menu .has-submenu {
+  position: relative;
+}
+
+.menu .submenu {
+  list-style: none;
+  position: absolute;
+  padding: 0px;
+  top: 100%;
+  left: 0px;
+  display: none;
+  background-color: #5E5757;
+}
+
+.submenu a {
+  display: block;
+}
+
+.submenu a:hover {
+  background-color: #DDD;
+  color: #000;
+}

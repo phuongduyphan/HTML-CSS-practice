@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background-color: #EEE;
+}
+
+h1 {
+  color: #888;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding-left: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-indent: 20px;
+}
+
+.list-item {
+  color: #FFF;
+  height: 100px;
+  padding: 5px 16px;
+  margin: 5px;
+  border-radius: 4px;
+  background-color: red;
+}
+
+.list-item-gradient {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(127,40,156,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.list-item-pattern {
+  background-image: url('./pattern.png');
+  background-size: cover;
+}
+
+.list-item-image {
+  background-image: url('./mountains.jpg');
+  background-position: 0px -700px;
+}
+
+.list-item-parallax {
+  background-image: url('./mountains.jpg');
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-attachment: fixed;
+}

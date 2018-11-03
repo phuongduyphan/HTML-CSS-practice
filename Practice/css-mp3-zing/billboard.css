@@ -1,0 +1,21 @@
+.album-cover {
+  height: 128px;
+  width: 128px;
+  background-color: #DDD;
+  background-image: url('music.jpg');
+  background-size: cover;
+  background-position: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFF;
+}
+
+.album-cover .overlay {
+  height: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.400373528317577) 0%, rgba(255,255,255,0) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding: 8px;
+  box-sizing: border-box;
+}
