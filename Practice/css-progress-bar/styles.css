@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #000;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-bar > .label {
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.progress-bar > .line {
+  width: 600px;
+  height: 10px;
+  background: #E8E8E8;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 0px 20px 3px #E8E8E8;
+}
+
+.progress-bar > .line > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .progress-bar > .line {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .progress-bar > .line {
+    width: 250px;
+  }
+}
